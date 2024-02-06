@@ -6,7 +6,7 @@ const {
   joined,
 } = require("../common/common.js");
 
-const LANG = "apex";
+const LANG = "apex_neo";
 
 // SOSL includes SOQL as a sub-type
 const soslGrammar = require("../common/sosl-grammar.js")(LANG);
