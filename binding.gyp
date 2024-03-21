@@ -5,11 +5,9 @@
       "include_dirs": [
         "<!(node -e \"require('nan')\")",
         "apex/src",
-        "apexanon/src"
       ],
       "sources": [
         "apex/src/parser.c",
-        "apexanon/src/parser.c",
         "soql/src/parser.c",
         "sosl/src/parser.c",
         "bindings/node/binding.cc",
